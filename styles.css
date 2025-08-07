@@ -1,25 +1,41 @@
-.quad-1 {
-    width: 100px;
-    height: 100px;
-    background-color: blue;
-    display:inline-block;
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    color: #333
 }
-.quad-2 {
-    width: 100px;
-    height: 100px;
-    background-color: crimson;
-    
-}
-.quad-3 {
-    width: 100px;
-    height: 100px;
-    background-color: rgb(20, 220, 120);
-    display:inline-block;
-}
+
 .container {
-    height: 500px;
-    display: flex;
+    width: 90% ;
+    height:1200px ;
+}
+
+
+header {
+    background-color: #333;
+    color: #f4f4f4;
+    padding: 20px 20px;
+}
+
+    header .container{
+    display: flex: ;
     justify-content: space-between;
-    align-items: flex-end;
-    flex-direction:column ;
+    align-self:center;
+    }
+
+    .menu{
+        list-style:none ;
+        display:flex ;
+        gap: 20px;
+    }
+
+    .menu a{
+        color:white ;
+        text-decoration:none ;
+        transition:0.3s ;
+    }
+
+    .menu a:hover{
+    color: #00aced;
+    }
+
 }
